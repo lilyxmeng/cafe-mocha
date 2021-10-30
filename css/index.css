@@ -1,10 +1,10 @@
+/* welcome */
 .welcome {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
-  /* ? */
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .welcome-left {
@@ -32,13 +32,17 @@
 .welcome-img {
   width: 450px;
   border-radius: 20px;
-  box-shadow: 0 4px 15px 0 #e0c3fc;
+  box-shadow: 0 4px 15px 0 #fff;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (max-width: 1100px) {
+  .welcome {
+    padding-top: 100px;
+  }
+
   .welcome-title {
     font-size: 65px;
     font-weight: bold;
@@ -57,8 +61,91 @@
   }
 }
 
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   .welcome {
-      display: grid;
+    display: grid;
   }
 }
+
+/* mission */
+.mission {
+  padding: 50px;
+  background-color: #b09384;
+  border-radius: 20px;
+}
+
+.mission-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: center;
+  text-shadow: 0 0 10px #d9cfc1;
+}
+
+.mission-content {
+  display: grid;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.who {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.who-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #b892ff;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 230px;
+}
+
+.who-description {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding: 30px;
+  background-color: #a4c3b2;
+  border-radius: 20px;
+}
+
+.goals {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.goals-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #b892ff;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 180px;
+}
+
+.goals-description {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding: 30px;
+  background-color: #a4c3b2;
+  border-radius: 20px;
+  padding-left: 50px;
+}
+

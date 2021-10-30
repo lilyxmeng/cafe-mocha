@@ -39,6 +39,7 @@ input[type="reset"] {
   z-index: 999;
   width: 100%;
   position: absolute;
+  top: 0;
 }
 
 .nav-desktop {
@@ -228,12 +229,12 @@ input[type="reset"] {
 
 /* universal */
 section {
-  padding-top: 150px;
   width: 85%;
   margin: auto;
+  margin-top: 80px;
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
   section {
     width: 95%;
   }
