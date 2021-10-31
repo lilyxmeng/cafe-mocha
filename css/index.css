@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-  padding-top: 150px;
+  padding-top: 90px;
 }
 
 .welcome-left {
@@ -40,7 +40,7 @@
 
 @media (max-width: 1100px) {
   .welcome {
-    padding-top: 100px;
+    padding-top: 60px;
   }
 
   .welcome-title {
@@ -64,6 +64,7 @@
 @media (max-width: 800px) {
   .welcome {
     display: grid;
+    padding-top: 20px;
   }
 }
 
@@ -80,7 +81,6 @@
   color: #fff;
   margin-bottom: 50px;
   text-align: center;
-  text-shadow: 0 0 10px #d9cfc1;
 }
 
 .mission-content {
@@ -104,10 +104,10 @@
   color: #b892ff;
   margin-bottom: 20px;
   text-align: left;
-  padding: 20px;
+  padding: 15px 20px;
   background-color: #fff;
   border-radius: 20px;
-  width: 230px;
+  width: 225px;
 }
 
 .who-description {
@@ -133,10 +133,10 @@
   color: #b892ff;
   margin-bottom: 20px;
   text-align: left;
-  padding: 20px;
+  padding: 15px 20px;
   background-color: #fff;
   border-radius: 20px;
-  width: 180px;
+  width: 170px;
 }
 
 .goals-description {
@@ -147,5 +147,73 @@
   background-color: #a4c3b2;
   border-radius: 20px;
   padding-left: 50px;
+}
+
+@media (max-width: 1100px) {
+  .mission {
+    padding: 40px 30px;
+  }
+
+  .who-title {
+    font-size: 35px;
+    width: 200px;
+  }
+
+  .who-description {
+    font-size: 19px;
+  }
+
+  .goals-title {
+    font-size: 35px;
+    width: 155px;
+  }
+
+  .goals-description {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 800px) {
+  .mission {
+    padding: 40px 20px;
+    width: 80%;
+  }
+
+  .mission-title {
+    font-size: 50px;
+  }
+
+  .who-title {
+    font-size: 30px;
+    width: 170px;
+  }
+
+  .who-description {
+    font-size: 18px;
+  }
+
+  .goals-title {
+    font-size: 30px;
+    width: 130px;
+  }
+
+  .goals-description {
+    font-size: 18px;
+  }
+}
+
+/* blog */
+.blog {
+  padding: 50px;
+  background-color: #a4c3b2;
+  border-radius: 20px;
+}
+
+.blog-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
