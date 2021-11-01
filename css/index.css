@@ -161,6 +161,7 @@
 
   .who-description {
     font-size: 19px;
+    padding: 25px;
   }
 
   .goals-title {
@@ -170,6 +171,8 @@
 
   .goals-description {
     font-size: 19px;
+    padding: 25px;
+    padding-left: 40px;
   }
 }
 
@@ -190,6 +193,7 @@
 
   .who-description {
     font-size: 18px;
+    padding: 20px;
   }
 
   .goals-title {
@@ -199,6 +203,8 @@
 
   .goals-description {
     font-size: 18px;
+    padding: 20px;
+    padding-left: 35px;
   }
 }
 
@@ -217,3 +223,30 @@
   text-align: center;
 }
 
+.blog-post {
+  padding: 40px;
+  background-color: #b09384;
+  border-radius: 20px;
+}
+
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.blog-post-info {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.blog-break {
+  background-color: black;
+  margin-bottom: 20px;
+  border: none;
+  height: 1px;
+  border-radius: 20px;
+}
+
+.blog-post-description {
+  font-size: 18px;
+}
