@@ -20,13 +20,12 @@
   font-size: 70px;
   font-weight: bold;
   color: #a4c3b2;
-  text-shadow: 0 0 10px #fff;
 }
 
 .welcome-description {
   font-size: 30px;
   font-weight: bold;
-  color: #fff;
+  color: rgb(106, 143, 122);
 }
 
 .welcome-img {
@@ -71,7 +70,7 @@
 /* mission */
 .mission {
   padding: 50px;
-  background-color: #b09384;
+  background-color: #b7a28f;
   border-radius: 20px;
 }
 
@@ -95,19 +94,17 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
 }
 
 .who-title {
   font-size: 40px;
   font-weight: bold;
-  color: #b892ff;
+  color: #beb7df;
   margin-bottom: 20px;
   text-align: left;
-  padding: 15px 20px;
-  background-color: #fff;
+  background-color: white;
   border-radius: 20px;
-  width: 225px;
 }
 
 .who-description {
@@ -115,7 +112,7 @@
   color: black;
   text-align: left;
   padding: 30px;
-  background-color: #a4c3b2;
+  background-color: white;
   border-radius: 20px;
 }
 
@@ -124,19 +121,17 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
 }
 
 .goals-title {
   font-size: 40px;
   font-weight: bold;
-  color: #b892ff;
+  color: #beb7df;
   margin-bottom: 20px;
   text-align: left;
-  padding: 15px 20px;
-  background-color: #fff;
+  background-color: white;
   border-radius: 20px;
-  width: 170px;
 }
 
 .goals-description {
@@ -144,9 +139,12 @@
   color: black;
   text-align: left;
   padding: 30px;
-  background-color: #a4c3b2;
+  background-color: white;
   border-radius: 20px;
-  padding-left: 50px;
+}
+
+.goals-list-item {
+  margin-left: 20px;
 }
 
 @media (max-width: 1100px) {
@@ -154,9 +152,12 @@
     padding: 40px 30px;
   }
 
+  .who {
+    width: 95%;
+  }
+
   .who-title {
     font-size: 35px;
-    width: 200px;
   }
 
   .who-description {
@@ -164,15 +165,17 @@
     padding: 25px;
   }
 
+  .goals {
+    width: 95%;
+  }
+
   .goals-title {
     font-size: 35px;
-    width: 155px;
   }
 
   .goals-description {
     font-size: 19px;
     padding: 25px;
-    padding-left: 40px;
   }
 }
 
@@ -188,7 +191,8 @@
 
   .who-title {
     font-size: 30px;
-    width: 170px;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
 
   .who-description {
@@ -198,20 +202,20 @@
 
   .goals-title {
     font-size: 30px;
-    width: 130px;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
 
   .goals-description {
     font-size: 18px;
     padding: 20px;
-    padding-left: 35px;
   }
 }
 
 /* blog */
 .blog {
   padding: 50px;
-  background-color: #a4c3b2;
+  background-color: #bdb6cf;
   border-radius: 20px;
 }
 
@@ -223,10 +227,18 @@
   text-align: center;
 }
 
+.blog-content {
+  display: grid;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
 .blog-post {
   padding: 40px;
-  background-color: #b09384;
+  background-color: white;
   border-radius: 20px;
+  margin: auto;
 }
 
 .blog-post-title {
@@ -249,4 +261,38 @@
 
 .blog-post-description {
   font-size: 18px;
+}
+
+@media (max-width: 1100px) {
+  .blog {
+    padding: 40px 30px;
+  }
+
+  .blog-post {
+    padding: 35px;
+    width: 86%;
+  }
+
+  .blog-post-title {
+    font-size: 18px;
+  }
+
+  .blog-post-info {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .blog {
+    padding: 40px 20px;
+    width: 80%;
+  }
+
+  .blog-title {
+    font-size: 50px;
+  }
+
+  .blog-post {
+    padding: 28px 25px;
+  }
 }

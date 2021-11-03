@@ -11,7 +11,7 @@
 }
 
 html {
-  background-color: #d9cfc1;
+  background-color: white;
 }
 
 a {
@@ -48,7 +48,7 @@ input[type="reset"] {
   align-items: center;
   width: 100%;
   margin: auto;
-  background-color: #d8bbff;
+  background-color: #beb7df;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   padding: 10px 0;
 }
@@ -123,7 +123,7 @@ input[type="reset"] {
 .nav-mobile {
   width: 100%;
   margin: auto;
-  background-color: #d8bbff;
+  background-color: #beb7df;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   display: none;
   padding: 3px 0;
