@@ -45,14 +45,11 @@
   .welcome-title {
     font-size: 65px;
     font-weight: bold;
-    color: #a4c3b2;
-    text-shadow: 0 0 10px #fff;
   }
 
   .welcome-description {
     font-size: 25px;
     font-weight: bold;
-    color: #fff;
   }
 
   .welcome-img {
