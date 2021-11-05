@@ -228,6 +228,10 @@ input[type="reset"] {
 }
 
 /* universal */
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
 section {
   width: 85%;
   margin: auto;
@@ -237,5 +241,6 @@ section {
 @media (max-width: 700px) {
   section {
     width: 95%;
+    margin-top: 50px;
   }
 }
