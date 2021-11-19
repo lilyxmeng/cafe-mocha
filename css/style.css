@@ -259,6 +259,10 @@ input[type="reset"] {
   font-weight: 700;
 }
 
+.footer-contact-text-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 800px) {
   .footer-content {
     display: grid;
