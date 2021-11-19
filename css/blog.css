@@ -61,13 +61,11 @@
   }
 
   .blog-content {
-    padding: 40px 15px;
-    width: 100%;
+    padding: 40px;
   }
 
   .blog-post {
     padding: 35px;
-    width: 86%;
     transition: opacity 0.5s;
   }
 
@@ -107,7 +105,7 @@
 
   .blog {
     padding: 40px 20px;
-    width: 80%;
+    width: 88%;
   }
 
   .blog-title {
