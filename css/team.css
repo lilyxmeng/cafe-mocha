@@ -1,4 +1,4 @@
-/* magazine */
+/* team */
 .team-title {
   font-size: 60px;
   font-weight: bold;
@@ -97,18 +97,20 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
   .team {
     padding: 0;
     width: 88%;
   }
 
   .team-content {
-    padding: 25px;
+    padding: 0;
   }
-  .team-member {
+
+  .team-member-content {
     transition: opacity 0.5s;
     display: grid;
+    padding: 25px;
   }
 
   .team-member-left {
