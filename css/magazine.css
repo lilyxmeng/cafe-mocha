@@ -13,20 +13,10 @@
   justify-content: flex-start;
   display: grid;
   gap: 50px;
-  border-radius: 20px;
-  margin: auto;
-}
-
-.magazine-post-content {
-  padding: 40px 40px 40px 0;
-  background-color: #b7a28f;
   padding: 50px;
+  background-color: #b7a28f;
   border-radius: 20px;
   margin: auto;
-  transition: opacity 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .magazine-post {
@@ -67,7 +57,7 @@
 
 .magazine-post-info {
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .magazine-break {
@@ -88,7 +78,6 @@
   }
 
   .magazine-content {
-    gap: 0px;
     padding: 40px;
   }
 
@@ -110,13 +99,9 @@
   .magazine-post-title {
     font-size: 18px;
   }
-
-  .magazine-post-info {
-    font-size: 18px;
-  }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 800px) {
   .magazine {
     padding: 0;
     width: 88%;
