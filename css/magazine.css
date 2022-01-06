@@ -76,9 +76,13 @@
     padding: 0 30px;
   }
 
+  .magazine-content {
+    gap: 0px;
+    padding: 40px;
+  }
+
   .magazine-post {
     padding: 35px;
-    width: 86%;
     transition: opacity 0.5s;
   }
 
@@ -102,6 +106,14 @@
 }
 
 @media (max-width: 800px) {
+  .magazine {
+    padding: 0;
+    width: 88%;
+  }
+
+  .magazine-content {
+    padding: 25px;
+  }
   .magazine-post {
     transition: opacity 0.5s;
     display: grid;
@@ -120,11 +132,6 @@
     cursor: pointer;
     opacity: 0.8;
     transition: opacity 0.5s;
-  }
-
-  .magazine {
-    padding: 0 20px;
-    width: 80%;
   }
 
   .magazine-title {
