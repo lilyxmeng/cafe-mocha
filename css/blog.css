@@ -19,6 +19,13 @@
   margin: auto;
 }
 
+.blog-post-page {
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+}
+
 .blog-post {
   padding: 40px;
   background-color: white;
@@ -62,6 +69,10 @@
 
   .blog-content {
     padding: 40px;
+  }
+
+  .blog-post-page {
+    padding: 35px;
   }
 
   .blog-post {
@@ -110,6 +121,10 @@
 
   .blog-title {
     font-size: 50px;
+  }
+
+  .blog-post-page {
+    padding: 28px 25px;
   }
 
   .blog-post {
