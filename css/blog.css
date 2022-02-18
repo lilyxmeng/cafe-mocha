@@ -26,6 +26,22 @@
   margin: auto;
 }
 
+.blog-post-image {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: auto;
+  display: block;
+}
+
+.blog-link {
+  color: #7b768f !important;
+}
+
+.blog-link:hover {
+  text-decoration: underline;
+}
+
 .blog-post {
   padding: 40px;
   background-color: white;
